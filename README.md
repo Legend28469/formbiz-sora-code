@@ -1,27 +1,30 @@
-# 🚀 Sora Code Automator
+# Sora Code Automator
 
-A powerful Chrome extension designed to automate the process of obtaining access codes for OpenAI's Sora video generation platform. This tool tirelessly tests codes from the Formbiz community until it successfully grants you access.
+A Chrome extension that automates obtaining access codes for OpenAI's Sora video generation platform by testing codes from the Formbiz community.
 
-> **Disclaimer:** This tool is intended for educational purposes and to streamline a manual process. Users are encouraged to contribute back to the community by sharing their working codes.
+> **IMPORTANT:** Before starting, make sure you have these tabs already open:
+> - `https://sora.chatgpt.com/explore`
+> - `https://formbiz.biz/`
 
-## ✨ Features
+> **Disclaimer:** This is a quick script I made because I was tired of manually trying codes. It's timeout-based and comes with **no warranty**. It worked for me, but your mileage may vary. This tool is for educational purposes - please contribute back by sharing your working codes with the community.
 
-- 🤖 **Full Automation**: Automatically navigates between Formbiz and Sora, pasting codes and checking for success.
-- 🔄 **Smart Tab Management**: Reuses existing tabs to keep your browser clean and efficient.
-- ⏱️ **Configurable Timing**: Carefully timed interactions to mimic human behavior and avoid rate-limiting.
-- 🎮 **Simple Controls**: Easy start/stop button for full control over the automation process.
-- 👁️ **Visual Feedback**: Real-time status updates so you always know what's happening.
+## Features
 
-## 📋 Prerequisites
+- **Full Automation**: Automatically navigates between Formbiz and Sora, pasting codes and checking for success
+- **Smart Tab Management**: Reuses existing tabs to keep your browser clean and efficient
+- **Configurable Timing**: Carefully timed interactions to mimic human behavior and avoid rate-limiting
+- **Simple Controls**: Easy start/stop button for full control over the automation process
+- **Visual Feedback**: Real-time status updates so you always know what's happening
 
-Before you begin, ensure you have the following:
+## Prerequisites
+
+Before you begin, ensure you have:
 
 - Google Chrome browser (version 88 or newer)
-- Active accounts on:
-  - OpenAI Sora
-  - Formbiz code sharing platform
+- An OpenAI account with access to Sora (you must be logged into `https://sora.chatgpt.com/explore`)
+- **Note:** No Formbiz account needed - the site is publicly accessible
 
-## 🔧 Installation Guide
+## Installation Guide
 
 ### Step 1: Download the Extension Files
 
@@ -56,9 +59,15 @@ The extension requires these permissions to function properly:
 - **scripting**: To interact with page elements and paste codes
 - **Host permissions**: For Formbiz and Sora websites to perform automation
 
-## 🎮 How to Use
+## How to Use
 
-1. **Start**: Log into both Formbiz and Sora in separate tabs, then click the extension icon and press "Start Automation"
+**BEFORE YOU START:** Open these two tabs first:
+- `https://sora.chatgpt.com/explore` (make sure you're logged in)
+- `https://formbiz.biz/`
+
+Then:
+
+1. **Start**: Click the extension icon and press "Start Automation"
 
 2. **Monitor**: Watch the status updates in the popup as the extension:
    - Clicks the code button on Formbiz every 1.5 seconds
@@ -67,9 +76,11 @@ The extension requires these permissions to function properly:
 
 3. **Success**: When a code works, the extension will stop automatically and you'll have Sora access!
 
-## 🔄 Community Sharing
+**Note:** This extension relies heavily on timeouts and timing. It's not perfect, but it worked for me. If it doesn't work for you, you may need to adjust the timing in the code or try manually.
 
-### Pay It Forward ✨
+## Community Sharing
+
+### Pay It Forward
 
 Once you successfully gain access to Sora, please contribute back to the community:
 
@@ -79,7 +90,7 @@ Once you successfully gain access to Sora, please contribute back to the communi
 
 This creates a virtuous cycle where everyone benefits from shared access opportunities.
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
@@ -88,17 +99,19 @@ This creates a virtuous cycle where everyone benefits from shared access opportu
 | Tabs not reusing properly | The extension automatically handles tab reuse, but you can manually close duplicates |
 | "Service at capacity" on Sora | This is normal during peak times; the extension will continue trying |
 
-## ⚠️ Important Notes
+## Important Notes
 
+- **No Warranty**: This is a quick script that worked for me. It's heavily timeout-based and may not work perfectly for everyone
 - **Legal Use**: This extension automates manual processes but should not be used to violate any terms of service
 - **Rate Limiting**: The timing is configured to be respectful to both platforms' servers
-- **Browser Requirements**: Requires Chrome 88+ for the Manifest V3 compatibility
+- **Browser Requirements**: Requires Chrome 88+ for Manifest V3 compatibility
 - **Updates**: Check back regularly for new versions as website structures may change
+- **Timing Issues**: If it's not working, the timeouts may need adjustment for your system/connection speed
 
-## 🙏 A Thank You for Reading
+## A Thank You for Reading
 
 If you found this project helpful, here's a code to try. Remember, codes expire quickly due to high demand, so this likely won't work by the time you use it, but it's a starting point!
 
 **My Code:** `AHMVFA`
 
-> ⚡ **Pro Tip:** Codes typically work for only a short time after being posted. The "freshness" of a code is the most important factor for success. If my code doesn't work, don't get discouraged - this extension will find a working one for you!
+> **Pro Tip:** Codes typically work for only a short time after being posted. The "freshness" of a code is the most important factor for success. If my code doesn't work, don't get discouraged - this extension will find a working one for you!
