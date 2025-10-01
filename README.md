@@ -108,6 +108,12 @@ This creates a virtuous cycle where everyone benefits from shared access opportu
 - **Updates**: Check back regularly for new versions as website structures may change
 - **Timing Issues**: If it's not working, the timeouts may need adjustment for your system/connection speed
 
+## Support
+
+If this saved you time and frustration, consider buying me a coffee!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/legend28469)
+
 ## A Thank You for Reading
 
 If you found this project helpful, here's a code to try. Remember, codes expire quickly due to high demand, so this likely won't work by the time you use it, but it's a starting point!
